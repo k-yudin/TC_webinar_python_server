@@ -4,6 +4,7 @@ RUN apt update -y
 RUN apt install -y python3
 
 RUN mkdir /local/
+
 COPY main.py /local/
 
 EXPOSE 80

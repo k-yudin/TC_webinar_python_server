@@ -3,7 +3,6 @@ import json
 import urllib.parse
 import re
 
-
 class Handler(http.server.BaseHTTPRequestHandler):
     error_message_format = ""
 

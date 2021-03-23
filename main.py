@@ -29,7 +29,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             return
 
         if name_list is None:
-            self.send_answer_response("Hello, someone")
+            self.send_answer_response("Hello, someeeone")
             return
 
         name = name_list.pop()

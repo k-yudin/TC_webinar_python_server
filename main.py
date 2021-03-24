@@ -41,6 +41,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.send_error_response("Bad name")
             return
 
+        
         self.send_answer_response("Hello, {name}".format(name=name))
 
     def send_answer_response(self, answer):

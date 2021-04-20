@@ -34,7 +34,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         name = name_list.pop()
 
-        # TODO
+        # TO DO
         # this doesn't work with russian symbols actually
         # but I can't understand what's wrong
         if not re.match('^[А-Яа-яA-Za-z]+$', name):
